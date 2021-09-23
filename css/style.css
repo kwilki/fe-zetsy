@@ -55,9 +55,13 @@ p {
 
 #press img {
 	display: inline-block;
-	width: 25%;
+	width: 20%;  /* if I make this 25% the images wont fit side by side */
 	border: 5px solid #ccc;
 	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px solid #6f7f7a;
 }
 
 footer {
@@ -74,7 +78,7 @@ a {
 	text-decoration: none;
 }
 
-/* * {
-	box-sizing: border-box;
-} */
+header a:hover {
+	color: #6f7f7a;
+}
 
