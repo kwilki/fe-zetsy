@@ -27,7 +27,7 @@ body {
 h1 {
 	padding-bottom: 10px;
 	margin: 0 0 5px;
-	font-size: 5em;
+	font-size: 5rem;
 	font-weight: normal;
 	font-family: 'Baskerville', serif;
 	border-bottom: 1px solid #ccc;
@@ -40,7 +40,7 @@ h1 {
 
 h2 {
 	color: #727E7A;
-	font-size: 2em;
+	font-size: 2rem;
 }
 
 p {
@@ -55,7 +55,7 @@ p {
 
 #press img {
 	display: inline-block;
-	width: 20%;  /* if I make this 25% the images wont fit side by side */
+	width: 24%;  /* if I make this 25% the images wont fit side by side */
 	border: 5px solid #ccc;
 	padding: 1px;
 }
@@ -80,5 +80,9 @@ a {
 
 header a:hover {
 	color: #6f7f7a;
+}
+
+* {
+	box-sizing: border-box;
 }
 
