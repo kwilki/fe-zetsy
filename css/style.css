@@ -11,11 +11,13 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	width: 80%;
+	margin: 0 auto;
 }
 
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
+	/* width: 960px; */
+	/* margin: 0 auto; */
 	background: #fff;
 	padding: 0 45px 20px;
 }
@@ -31,12 +33,48 @@ h1 {
 	border-bottom: 1px solid #ccc;
 }
 
+#featured img {
+	border: 5px solid #9CACA6;
+	width: 100%;
+}
+
 h2 {
 	color: #727E7A;
 	font-size: 2em;
+}
+
+p {
+	font-size: 1em;
+	margin: 0 0 20px 0;
+	color: #727E7A;
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
+#press img {
+	display: inline-block;
+	width: 25%;
+	border: 5px solid #ccc;
+	padding: 1px;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
+
+.small {
+	font-size: 0.8em;
 }
 
 a {
 	color: #9CACA6;
 	text-decoration: none;
 }
+
+/* * {
+	box-sizing: border-box;
+} */
+
